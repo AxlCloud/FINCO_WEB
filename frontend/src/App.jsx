@@ -1,13 +1,19 @@
 import React from 'react';
-import Dashboard from './components/dashboard/Dashboard.jsx';
+import EmployeesList from './components/Employes/employeesList';
+
 
 function App() {
+
   return (
-    <div>
-      <h1 className='text-center my-4'>FINCO</h1>
-      <Dashboard />
+   
+   <div >
+      
+      <EmployeesList />
     </div>
   );
 }
 
 export default App;
+
+
+
